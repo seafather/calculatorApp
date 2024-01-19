@@ -70,8 +70,7 @@ struct ContentView: View {
                              Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/, label: {
                                  Text(item.rawValue)
                              })
-                             .frame(
-                                width:)
+                            
                                  
                          }
                         
@@ -85,9 +84,9 @@ struct ContentView: View {
         .ignoresSafeArea()
         
     }
-    func buttonWidth(item:Button) {
-        return UIScreen.main.bounds.width /12 * 4 
-    }
+    //func buttonWidth(item:Button) {
+        //return UIScreen.main.bounds.width /12 * 4
+    //}
 }
 
 
